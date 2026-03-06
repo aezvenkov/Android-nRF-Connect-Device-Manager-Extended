@@ -3,6 +3,13 @@
 ## Overview
 Added a new Settings management interface to the nRF Connect Device Manager sample application. This feature allows users to read, write, and delete device-level settings via the McuMgr protocol.
 
+## How to Access
+1. Launch the application.
+2. Use the **Scanner** tab to find and connect to your McuMgr-compatible device.
+3. Once connected, select the **Device** tab from the bottom navigation bar.
+4. The **Settings** card will be visible in the list of available McuMgr features.
+5. Enter a setting key (e.g., `fw_loader/adv_name`) to perform Read, Write, or Delete operations.
+
 ## Features
 - **Settings UI**: A new card-based interface in the Device tab for interacting with device settings.
 - **Read Operation**: Retrieve values for specific settings keys from the device.
