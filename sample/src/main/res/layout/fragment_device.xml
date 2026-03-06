@@ -19,4 +19,12 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         tools:layout="@layout/fragment_card_echo"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_settings"
+        android:name="no.nordicsemi.android.mcumgr.sample.fragment.mcumgr.SettingsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        tools:layout="@layout/fragment_card_settings"/>
 </LinearLayout>

@@ -18,6 +18,7 @@ import javax.inject.Inject;
 
 import no.nordicsemi.android.mcumgr.sample.di.component.McuMgrViewModelSubComponent;
 import no.nordicsemi.android.mcumgr.sample.viewmodel.FileBrowserViewModel;
+import no.nordicsemi.android.mcumgr.sample.viewmodel.mcumgr.SettingsViewModel;
 
 public class McuMgrViewModelFactory implements ViewModelProvider.Factory {
     private final Map<Class<? extends ViewModel>, Callable<? extends ViewModel>> creators;
@@ -32,6 +33,7 @@ public class McuMgrViewModelFactory implements ViewModelProvider.Factory {
         creators.put(ResetViewModel.class, viewModelSubComponent::resetViewModel);
         creators.put(ObservabilityViewModel.class, viewModelSubComponent::observabilityViewModel);
         creators.put(StatsViewModel.class, viewModelSubComponent::statsViewModel);
+        creators.put(SettingsViewModel.class, viewModelSubComponent::settingsViewModel);
         creators.put(McuMgrViewModel.class, viewModelSubComponent::mcuMgrViewModel);
         creators.put(FileBrowserViewModel.class, viewModelSubComponent::fileBrowserViewModel);
         creators.put(ImageUpgradeViewModel.class, viewModelSubComponent::imageUpgradeViewModel);

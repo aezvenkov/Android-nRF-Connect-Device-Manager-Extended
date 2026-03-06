@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">Settings</string>
+    <string name="settings_key_hint">Key</string>
+    <string name="settings_value_hint">Value (Write only)</string>
+
+    <string name="settings_action_read">Read</string>
+    <string name="settings_action_write">Write</string>
+    <string name="settings_action_delete">Delete</string>
+
+    <string name="settings_response_title">Response:</string>
+</resources>

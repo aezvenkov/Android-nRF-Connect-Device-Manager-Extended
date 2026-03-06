@@ -21,6 +21,7 @@ import no.nordicsemi.android.mcumgr.sample.viewmodel.mcumgr.McuMgrViewModel;
 import no.nordicsemi.android.mcumgr.sample.viewmodel.mcumgr.McuMgrViewModelFactory;
 import no.nordicsemi.android.mcumgr.sample.viewmodel.mcumgr.ObservabilityViewModel;
 import no.nordicsemi.android.mcumgr.sample.viewmodel.mcumgr.ResetViewModel;
+import no.nordicsemi.android.mcumgr.sample.viewmodel.mcumgr.SettingsViewModel;
 import no.nordicsemi.android.mcumgr.sample.viewmodel.mcumgr.StatsViewModel;
 
 /**
@@ -40,6 +41,7 @@ public interface McuMgrViewModelSubComponent {
     ResetViewModel resetViewModel();
     ObservabilityViewModel observabilityViewModel();
     StatsViewModel statsViewModel();
+    SettingsViewModel settingsViewModel();
     McuMgrViewModel mcuMgrViewModel();
     FileBrowserViewModel fileBrowserViewModel();
     ImageUpgradeViewModel imageUpgradeViewModel();
